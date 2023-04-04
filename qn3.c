@@ -210,6 +210,6 @@ int main()
 
     // Search Element in linked list
     int index = SearchElm(head, 22);
-    index != -1 ? printf("Element found in %d", index) : printf("Element found Not Found");
+    index != -1 ? printf("Element found in %d", index) : printf("Element Not Found");
     return 0;
 }
